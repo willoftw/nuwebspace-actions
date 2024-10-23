@@ -2,3 +2,7 @@
 
 add NUSPACE_USR and NUSPACE_PWD to Repository secrets
 ![alt text](image.png)
+
+the action is disabled by default to enable the action remove this line 
+![alt text](image-1.png)
+from .github/github-actions-deploy-nuwebspace.yml
