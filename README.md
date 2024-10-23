@@ -1,10 +1,11 @@
-# Bonus status badge
+# Bonus Status Badge
 [![Deploy to NuWebspace](https://github.com/willoftw/nuwebspace-actions/actions/workflows/github-actions-deploy-nuwebspace.yml/badge.svg)](https://github.com/willoftw/nuwebspace-actions/actions/workflows/github-actions-deploy-nuwebspace.yml)
 
-# Deploy to nuwebspace automatically on push
-add NUSPACE_USR and NUSPACE_PWD to Repository secrets
-![alt text](images/image.png)
+# Automatic Deployment to NuWebspace on Push
+To enable automatic deployment, add `NUSPACE_USR` and `NUSPACE_PWD` to the repository secrets.
 
-the action is disabled by default to enable the action remove this line 
-![alt text](images/image-1.png)
-from .github/github-actions-deploy-nuwebspace.yml
+![NuWebspace Deployment Flow](images/image.png)
+
+By default, this action is disabled. To enable it, remove the following line from `.github/github-actions-deploy-nuwebspace.yml`:
+
+![Disable Line](images/image-1.png)
